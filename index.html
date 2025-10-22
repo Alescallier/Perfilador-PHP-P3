@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfilador PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Generador de Tarjeta de Perfil</h2>
+        <form action="perfil.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" required>
+
+            <label for="hobby">Hobby:</label>
+            <input type="text" name="hobby" id="hobby" required>
+
+            <button type="submit">Generar Perfil</button>
+        </form>
+    </div>
+</body>
+</html>
